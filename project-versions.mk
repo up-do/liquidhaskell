@@ -7,8 +7,8 @@ STACKAGE_VERSION ?= lts-21.20
 # Two options are provided, one with an empty local cabal.config and the other
 # with a ghc-x.y.z resolver that for stack means packages shipped with the
 # compiler.
-GHC_UPGRADE ?= 9.4.7
-STACKAGE_UPGRADE ?= lts-21.20
+GHC_UPGRADE ?= 9.4.8
+STACKAGE_UPGRADE ?= lts-21.22
 
 # Imports can be relative to the project or relative to importing file.
 # ImportRelative works with cabal-3.10 and is the default.
