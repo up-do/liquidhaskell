@@ -1,0 +1,20 @@
+allow-newer: ghc-timings:base
+
+package liquid-fixpoint
+  flags: +devel
+
+package liquidhaskell
+  ghc-options: -j
+
+package liquidhaskell-boot
+  ghc-options: -j
+
+package liquid-platform
+  flags: +devel
+
+import: https://stackage.org/lts-21.22/cabal.config
+
+import: ./project-cabal/pkgs.config
+import: ./project-cabal/ghc-9.4.8/constraints.config
+import: ./project-cabal/ghc-9.4.8/deps-external.config
+build-info: True
