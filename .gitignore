@@ -35,6 +35,8 @@ dist-newstyle
 cabal.sandbox.config
 .ghc.environment.*
 cabal.project.local
+.updo
+updo
 
 tests/synthesis/logs/*
 !tests/synthesis/logs/.gitkeep
