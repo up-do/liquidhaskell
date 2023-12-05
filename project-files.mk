@@ -44,7 +44,7 @@ endif
 
 .DEFAULT_GOAL := all
 
-UPDO_VERSION ?= 6453f4b8a74f9ca665ff3d21644b1b9284a87a55
+UPDO_VERSION ?= 60545b108b7a6a2f802ec7a161aa4b9eb7441baf
 UPDO_URL := https://github.com/cabalism/updo/archive/${UPDO_VERSION}.tar.gz
 
 updo/Makefile:
