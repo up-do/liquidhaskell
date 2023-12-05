@@ -40,24 +40,11 @@ packages:
   - ./tests
   - ./tests/benchmarks/popl18/lib
 
-# We have 1 source packages listed in this order:
-#   * external 1
-#   * internal 0
-#   * external forks 0
-#   * internal forks 0
+# We have 1 external dependency source package.
 extra-deps:
-
   # Source Packages, external (3rd party).
   - git: https://github.com/qnikst/ghc-timings-report
     commit: 45ef3498e35897712bde8e002ce18df6d55f8b15
-
-  # Source Packages, internal to this organisation (private and public).
-
-  # Source Packages, external (3rd party) forks of other repositories.
-  # Can we help upstream?
-
-  # Source Packages, internal forks of other repositories.
-  # Can we upstream and unfork?
 
   # Package versions for published packages either not on Stackage or
   # not matching the version on Stackage for the resolver we use.
