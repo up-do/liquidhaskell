@@ -127,7 +127,6 @@ library
                     , aeson
                     , binary
                     , bytestring           >= 0.10
-                    , Cabal
                     , cereal
                     , cmdargs              >= 0.10
                     , containers           >= 0.5
@@ -165,6 +164,7 @@ library
   ghc-options:        -W -fwarn-missing-signatures -Wno-x-partial
   if flag(devel)
     ghc-options:      -Wall -Werror -Wno-x-partial
+    build-depends:    Cabal
 
 test-suite wiredin-tests
   type:             exitcode-stdio-1.0
