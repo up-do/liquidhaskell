@@ -163,8 +163,6 @@ library
   ghc-options:        -W -fwarn-missing-signatures -Wno-x-partial
   if flag(devel)
     ghc-options:      -Wall -Werror -Wno-x-partial
-    exposed-modules:  Language.Haskell.Liquid.Cabal
-    build-depends:    Cabal
 
 test-suite wiredin-tests
   type:             exitcode-stdio-1.0

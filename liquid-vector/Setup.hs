@@ -1,6 +1,6 @@
 module Main where
 
-import Language.Haskell.Liquid.Cabal (liquidHaskellMain)
+import Distribution.Simple (defaultMain)
 
 main :: IO ()
-main = liquidHaskellMain
+main = defaultMain
